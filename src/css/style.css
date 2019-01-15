@@ -16,6 +16,18 @@ ul {
   display: flex;
   margin: auto;
   margin-top: 150px;
-  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  color: aliceblue;
 }
 
+footer {
+  color: aliceblue;
+}
+
+@media (min-width: 768px) {
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
