@@ -11,3 +11,8 @@ body {
   margin-top: 100px;
 }
 
+.snow {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
