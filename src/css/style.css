@@ -6,28 +6,8 @@ body {
   background-image: url("../img/back.jpg");
 }
 
-header {
+.logo {
   text-align: center;
   margin-top: 100px;
 }
 
-
-ul {
-  display: flex;
-  margin: auto;
-  margin-top: 150px;
-  justify-content: space-around;
-  text-align: center;
-  color: aliceblue;
-}
-
-footer {
-  color: aliceblue;
-}
-
-@media (min-width: 768px) {
-  ul {
-    display: flex;
-    justify-content: space-between;
-  }
-}
