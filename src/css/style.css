@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
 body {
   font-family: 'Raleway', sans-serif;
   background-size: cover;
@@ -9,12 +8,10 @@ body {
   min-height: 100vh;
   background-attachment: fixed;
 }
-
 .logo {
   text-align: center;
   margin-top: 100px;
 }
-
 .snow {
   display: flex;
   justify-content: space-around;
@@ -24,14 +21,12 @@ body {
   background-color: azure;
   border-color: rgb(114, 84, 84);
 }
-
 .snow__image {
   width: 600px;
   align-items: center;
   display: flex;
   shape-outside: polygon(0px 0px, 45% 0px, 35% 18%, 55% 60%, 45% 100%, 0px 100%);
 }
-
 .snow__text {
   line-height: 1.3;
   font-size: 18px;
