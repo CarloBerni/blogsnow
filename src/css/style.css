@@ -17,7 +17,6 @@ body {
 
 .snow {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   margin-top: 150px;
   border-style: solid;
@@ -27,7 +26,6 @@ body {
 }
 
 .snow__image {
-  display: flex;
   width: 600px;
   align-items: center;
   display: flex;
@@ -39,5 +37,6 @@ body {
   font-size: 18px;
   padding: 20px;
   font-style: italic;
+  font-weight: bold;
 }
 
