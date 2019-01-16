@@ -4,6 +4,8 @@ body {
   font-family: 'Raleway', sans-serif;
   background-size: cover;
   background-image: url("../img/back.jpg");
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .logo {
@@ -14,5 +16,11 @@ body {
 .snow {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-top: 150px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: azure;
+  width: 600px;
 }
+
