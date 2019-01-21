@@ -46,14 +46,14 @@ footer {
   border-color: rgb(114, 84, 84);
 }
 
-@media (max-width: 1000px) {
-  .snow__text{
-    font-size: 12px;
+@media (max-width: 1100px) {
+  .snow {
+    display: block;
   }
 }
-
-/*@media (max-width: 1060px) {
-  .snow {
-    display: none
+@media (max-width: 650px) {
+  .snow__text {
+    font-size: 15px;
+    font-weight: bolder;
   }
 }
