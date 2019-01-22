@@ -48,9 +48,21 @@ footer {
 }
 
 @media (max-width: 1100px) {
-  .snow {
+  .snow,.snow__image, article img {
     display: block;
+    width: 100%;
+    align-items: none;
   }
+  .snow__image {
+    width: auto;
+    margin:0;
+  }
+  .snow{
+    display: block;
+    width: auto;
+    margin:0;
+  }
+
   footer {
     display: none;
   }
