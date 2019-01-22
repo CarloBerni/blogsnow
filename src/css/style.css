@@ -62,14 +62,12 @@ footer {
     width: auto;
     margin:0;
   }
+  .snow__text {
+    font-weight: bolder;
+    font-size: 24px;
+  }
 
   footer {
     display: none;
-  }
-}
-@media (max-width: 650px) {
-  .snow__text {
-    font-size: 15px;
-    font-weight: bolder;
   }
 }
